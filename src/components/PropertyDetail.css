@@ -1,0 +1,30 @@
+/* PropertyDetail.css */
+
+.property-detail {
+    max-width: 600px;
+    margin: 40px auto;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+}
+
+.property-detail h2, .property-detail h3 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+    text-align: center;
+}
+
+.property-detail p {
+    margin: 10px 0;
+    font-size: 16px;
+    color: #555;
+    line-height: 1.6;
+}
+
+.property-detail p span {
+    font-weight: bold;
+    color: #333;
+}

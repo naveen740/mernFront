@@ -1,0 +1,66 @@
+.dashboard {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+header nav ul li {
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    justify-content: space-between;
+}
+
+ul li button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+ul li button:hover {
+    background-color: #0056b3;
+}
+
+.filters {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.filters input {
+    width: 30%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}

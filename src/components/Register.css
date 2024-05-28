@@ -1,0 +1,70 @@
+/* Register.css */
+
+.register-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f8f8f8; /* Light background color */
+}
+
+.register-content {
+    background-color: #fff; /* White background color */
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1); /* Shadow effect */
+    width: 400px;
+    text-align: center;
+}
+
+.register-content h2 {
+    margin-bottom: 20px;
+    font-size: 28px;
+    color: #333; /* Dark text color */
+}
+
+.register-form {
+    text-align: left;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group input,
+.form-group select {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.register-button {
+    width: 100%;
+    padding: 12px;
+    background-color: #ff6347; /* Orange button color */
+    color: #fff; /* White text color */
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.register-button:hover {
+    background-color: #ff4500; /* Darker orange color on hover */
+}
+
+.login-link {
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.login-link a {
+    color: #ff6347; /* Orange link color */
+    text-decoration: none;
+}
+
+.login-link a:hover {
+    text-decoration: underline;
+}

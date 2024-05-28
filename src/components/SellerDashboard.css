@@ -1,0 +1,102 @@
+/* General styling */
+
+
+/* Header styling */
+header {
+    background-color: #f8f9fa;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+}
+
+/* Dashboard content styling */
+.dashboard-content {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Add property button styling */
+.add-property-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.add-property-button:hover {
+    background-color: #0056b3;
+}
+
+/* Property list styling */
+.property-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.property-item {
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.property-details {
+    flex: 1;
+}
+
+.property-details h3 {
+    color: #007bff;
+    margin-bottom: 10px;
+}
+
+.property-details p {
+    margin: 0;
+    color: #333;
+}
+
+.property-actions {
+    flex: 0 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.edit-button,
+.delete-button {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    padding: 8px 15px;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.edit-button:hover,
+.delete-button:hover {
+    background-color: #c82333;
+}

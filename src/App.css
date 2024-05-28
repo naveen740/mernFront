@@ -1,0 +1,141 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.main {
+    padding: 20px;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+form.form {
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    margin: auto;
+}
+
+form.form input,
+form.form select,
+form.form button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+form.form button {
+    background: #333;
+    color: #fff;
+    cursor: pointer;
+}
+
+form.form button:hover {
+    background: #555;
+}
+
+.dashboard {
+    max-width: 800px;
+    margin: auto;
+}
+
+.dashboard .filters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.dashboard .filters input,
+.dashboard .filters button {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.dashboard .filters button {
+    background: #333;
+    color
+    : #fff;
+    cursor: pointer;
+}
+
+.dashboard .filters button:hover {
+    background: #555;
+}
+
+.dashboard ul {
+    list-style: none;
+    padding: 0;
+}
+
+.dashboard ul li {
+    background: #fff;
+    padding: 15px;
+    border-radius: 5px;
+    margin: 10px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dashboard ul li button {
+    background: #333;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.dashboard ul li button:hover {
+    background: #555;
+}
+
+.property-detail {
+    max-width: 600px;
+    margin: auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.property-detail h2,
+.property-detail h3 {
+    margin-bottom: 20px;
+}
+
+.property-detail p {
+    margin: 10px 0;
+}
